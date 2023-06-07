@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Masterfit</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="erro">Incorrect User Name or Password</string>
+    <string name="titulo">Title</string>
+    <string name="descri_ao">Description</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="unconfirmed_password">Unconfirmed Password</string>
+    <string name="inform">Now We Need Some Personal Information</string>
+    <string name="weight">Wha is your Weight?</string>
+    <string name="height">How tall are you?</string>
+    <string name="user">User :</string>
+    <string name="mostrar_imc">Show BMI:</string>
+    <string name="confirm">Confirm</string>
+    <string name="perfil">Profile</string>
+    <string name="ola">Hello</string>
+    <string name="change_user_information">Change User Information</string>
+    <string name="resgistered_bmi">Resgistered BMI:</string>
+    <string name="weight__">Weight :</string>
+    <string name="height__">Height :</string>
+    <string name="ajuda">If you modify your information and include the BMI change a new workout will be shown</string>
+    <string name="mensagem_erro">Mandatory spaces not informed</string>
+</resources>

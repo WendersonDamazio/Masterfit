@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RegistroUsuario">
+
+  <EditText
+      android:id="@+id/edN"
+      style="@style/Edit_Text"
+      android:layout_marginTop="60dp"
+      android:ems="10"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/name"
+      android:inputType="textPersonName"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="Autofill" />
+
+
+  <EditText
+      android:id="@+id/edS"
+      style="@style/Edit_Text"
+      android:layout_marginTop="35dp"
+      android:ems="10"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/password"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="@+id/edN"
+      app:layout_constraintStart_toStartOf="@+id/edN"
+      app:layout_constraintTop_toBottomOf="@+id/edN"
+      tools:ignore="Autofill" />
+
+  <EditText
+      android:id="@+id/ConfirmaS"
+      style="@style/Edit_Text"
+      android:layout_marginTop="35dp"
+      android:ems="10"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/confirm_password"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/edS"
+      tools:ignore="Autofill" />
+
+  <EditText
+      android:id="@+id/Weight"
+      style="@style/Edit_Text"
+      android:layout_marginTop="35dp"
+      android:ems="10"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/weight"
+      android:inputType="numberDecimal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ConfirmaS"
+      tools:ignore="Autofill" />
+
+  <EditText
+      android:id="@+id/Height"
+      style="@style/Edit_Text"
+      android:layout_marginTop="35dp"
+      android:ems="10"
+      android:fontFamily="@font/montserrat_medium"
+      android:hint="@string/height"
+      android:inputType="numberDecimal"
+      app:layout_constraintEnd_toEndOf="@+id/Weight"
+      app:layout_constraintStart_toStartOf="@+id/Weight"
+      app:layout_constraintTop_toBottomOf="@+id/Weight"
+      tools:ignore="Autofill" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/button2"
+      style="@style/Button"
+      android:layout_marginBottom="80dp"
+      android:fontFamily="@font/montserrat_bold"
+      android:onClick="signup"
+      android:text="@string/sign_up"
+      android:textColor="#FBF8F8"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/edS"
+      app:layout_constraintStart_toStartOf="@+id/edS"
+      tools:ignore="MissingConstraints" />
+
+  <TextView
+      android:id="@+id/Erro"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/unconfirmed_password"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textColor="#80FF0000"
+      android:visibility="invisible"
+      app:layout_constraintBottom_toTopOf="@+id/button2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Height"
+      tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

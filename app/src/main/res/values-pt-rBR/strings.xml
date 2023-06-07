@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercitar para a Saúde Conquistar</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="erro">Usuário ou senha incorretos</string>
+    <string name="titulo">Titulo</string>
+    <string name="descri_ao">Descrição</string>
+    <string name="register">Registro</string>
+    <string name="confirm_password">Confirme a Senha</string>
+    <string name="sign_up">Cadastre-se</string>
+    <string name="unconfirmed_password">Senha não confirmada</string>
+    <string name="inform">Agora Precisamos de algumas informações pessoais</string>
+    <string name="weight">Qual o seu Peso?</string>
+    <string name="height">Qual a sua Altura?</string>
+    <string name="user">Usuario :</string>
+    <string name="mostrar_imc">Mostrar IMC:</string>
+    <string name="confirm">Confirmar</string>
+    <string name="perfil">Perfil</string>
+    <string name="ola">Ola</string>
+    <string name="change_user_information">Alterar informacões</string>
+    <string name="resgistered_bmi">IMC Cadastrado:</string>
+    <string name="weight__">Peso :</string>
+    <string name="height__">Altura :</string>
+    <string name="ajuda">Se você modificar suas informações e incluir a alteração do IMC, um novo treino será mostrado</string>
+    <string name="mensagem_erro">Espaços obrigatórios não informados</string>
+</resources>
